@@ -1,0 +1,197 @@
+body {
+    font-family: "Montserrat";
+    color:#1e2022;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e2022;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-style: light;
+    font-weight: 100;
+}
+
+/* First page title and cover art */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-style: bold;
+}
+
+.big-heading {
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-bottom: 14rem;
+}
+#cover {
+    width: 300px;
+    height: 300px;
+}
+#coverart {
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+  }
+
+#title .container-fluid {
+    padding: 7% 15% 7%;
+}
+
+/* Apple Music & Google Play buttons */
+
+.buy-btn {
+   margin: 10% 3% 5% 3%;
+
+}
+
+/* Sample Tracks page */
+
+#demos {
+    background-color: white;
+    position: relative;
+}
+#demo-intro {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color:#1e2022;
+    display: block;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+.demo-box {
+    text-align: center;
+    padding: 3.5%;
+}
+/* enlarges album covers */
+.zoom {
+    display: block;
+    transition: transform .2s; /* Animation */
+    width: 180px;
+    height: 180px;
+    margin: auto auto 2rem auto;
+}
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom) */
+  }
+.track-title {
+    font-size: 1.5rem;
+    font-weight: 800
+}
+.play-btn {
+    align-self: center;
+    color: #52616b;
+    width: 6rem;
+    border: 2px solid #52616b;
+    margin-bottom: 1rem;
+}
+.btn-secondary {
+   background-color: #f0f5f9;
+}
+.fa-play-circle {
+    font-size: 2rem;
+}
+#audio-control {
+    width: 12rem;
+}
+
+/* Messages section */
+
+#message {
+    background-color: #c9d6df;
+    color: #1e2022;
+    text-align: left;
+    padding-bottom: 0rem;
+}
+#quote {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.msg-box {
+    font-family: "Montserrat";
+    font-style: normal;
+    text-align: left;;
+    font-size: 1.25rem;
+}
+.msg-items {
+    padding: 1.25rem;
+}
+#star {
+    height: 280px;
+    width: 280px;
+    padding-bottom: 1rem;
+}
+/* Final Section - Call to action and distribution channel icons */
+
+#channels {
+    padding-top: 3rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 8rem;
+}
+#cta {
+    margin: 3rem 0;
+}
+.m-logos {
+    text-align: center;
+    display: block;
+    height: 100px;
+    width: 200px;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+}
+.m-logos:hover {
+    transform: scale(1.25);
+}
+
+.social-icon {
+    margin: 10px 5px;
+  }
+.icon-btn {
+    color: #1e2022;
+    border: none;
+    margin: 5px 5px;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+  /* Darker background on mouse-over */
+.icon-btn:hover {
+    transform: scale(1.25)
+}
+#footer {
+    text-align: center;
+    font-size: .75rem;
+}
+
+
+
