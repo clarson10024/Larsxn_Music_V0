@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer; /* Mouse pointer on hover */
 }
 
-  /* Darker background on mouse-over */
+  /* Slight size adjustment on mouse-over */
 .icon-btn:hover {
     transform: scale(1.25)
 }
