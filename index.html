@@ -159,38 +159,50 @@
       </div>
   </section>
 
-
-
   <!-- Distribution Channel listing with links -->
 
   <section id="channels">
-    <h3 id="cta">You can listen to more music by Larsxn here.</h3>
-    <button>
-      <img class='m-logos' src="images/Google_Play_logo.png"
-        onclick = "window.location.href = 'https://play.google.com/store/music/album/Larsxn_Away?id=Byehstl5guajeqolk7y23i437ti&hl=en_US'">
-    </button>
-    <button>
-      <img class='m-logos' src="images/spotify-logo.png"
-        onclick = "window.location.href = 'https://open.spotify.com/album/54o6xUDSaLXJIpwwOJYOaD'">
-    </button>
-    <button>
-      <img class='m-logos'src="images/2020_soundcloudlogo.png"
-        onclick = "window.location.href = 'https://soundcloud.com/larsxn'">
-    </button>
-    <button>
-      <img class='m-logos'src="images/Apple_Music_logo.jpeg"
-        onclick="window.location.href = 'https://music.apple.com/us/album/away-ep/1514508259'">
-    </button>
-    <button>
-      <img class='m-logos'src="images/amazon-music-logo.jpeg"
-        onclick = "window.location.href = 'https://www.amazon.com/Away-Explicit-Larsxn/dp/B088YSBMT7/ref=sr_1_1?dchild=1&keywords=larsxn&qid=1590418894&s=dmusic&sr=1-1'">
-    </button>
-    <button>
-      <img class='m-logos'src="images/YouTube_logo.png"
-        onclick = "window.location.href = 'https://www.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'">
-    </button>
-
-
+    <div class="container-fluid">
+      <h3 id="cta">You can listen to more music by Larsxn here.</h3>
+      <div class="row">
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
+          <button class="btn btn-outline-light btn-lg m-logos">
+            <img  src="images/Google_Play_logo.png" class="m-logos"
+            onclick = "window.location.href = 'https://play.google.com/store/music/album/Larsxn_Away?id=Byehstl5guajeqolk7y23i437ti&hl=en_US'">
+         </button>
+        </div>
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
+          <button class="btn btn-outline-light btn-lg m-logos">
+            <img class='m-logos' src="images/spotify-logo.png"
+              onclick = "window.location.href = 'https://open.spotify.com/album/54o6xUDSaLXJIpwwOJYOaD'">
+          </button>
+        </div>
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
+          <button class="btn btn-outline-light btn-lg m-logos">
+            <img class='m-logos'src="images/2020_soundcloudlogo.png"
+              onclick = "window.location.href = 'https://soundcloud.com/larsxn'">
+          </button>
+        </div>
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
+          <button class="btn btn-outline-light btn-lg m-logos">
+            <img class='m-logos'src="images/Apple_Music_logo.jpeg"
+              onclick="window.location.href = 'https://music.apple.com/us/album/away-ep/1514508259'">
+          </button>
+        </div>
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
+          <button class="btn btn-outline-light btn-lg m-logos">
+            <img class='m-logos'src="images/amazon-music-logo.jpeg"
+              onclick = "window.location.href = 'https://www.amazon.com/Away-Explicit-Larsxn/dp/B088YSBMT7/ref=sr_1_1?dchild=1&keywords=larsxn&qid=1590418894&s=dmusic&sr=1-1'">
+          </button>
+        </div>
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
+          <button class="btn btn-outline-light btn-lg m-logos">
+            <img class='m-logos'src="images/YouTube_logo.png"
+              onclick = "window.location.href = 'https://www.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'">
+          </button>
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -217,19 +229,19 @@
 
     function playAudio(play_id, song) {
 
-      var x = document.createElement("AUDIO");
-      x.id = "audio-control"
+      var audio = document.createElement("AUDIO");
+      audio.id = "audio-control"
 
-      if (x.canPlayType("audio/mpeg")) {
-        x.setAttribute("src", song);
+      if (audio.canPlayType("audio/mpeg")) {
+        audio.setAttribute("src", song);
       } else {
-        x.setAttribute("src","horse.ogg");
+        audio.setAttribute("src","horse.ogg");
       }
-      x.setAttribute("controls", "controls");
+      audio.setAttribute("controls", "controls");
 
       var target = document.getElementById(play_id);
       var parentDiv = target.parentNode;
-      parentDiv.replaceChild(x,target)
+      parentDiv.replaceChild(audio,target)
       document.getElementById("audio-control").setAttribute("style", "; color: white;");
     }
 
