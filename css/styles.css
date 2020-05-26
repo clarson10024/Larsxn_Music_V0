@@ -173,12 +173,13 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding: 0;
     border-radius: 0rem;
+    border: none;
     height: 50px;
     width: 100px;
     margin: 0 0 0 0;
 }
 .m-logos:hover {
-    transform: scale(1.25);
+    transform: scale(1.2);
 }
 
 .social-icon {
@@ -199,20 +200,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-size: 1.25rem;
 }
-/* @media (max-width: 1028px) {
 
-    #title {
-      text-align: center;
-    }
-
-    .m-logos {
-        text-align: center;
-        display: inline-flex;
-        height: 25px;
-        width: 50px;
-        margin-top: .25rem;
-        margin-bottom: .25rem;
-    }
-  } */
 
 
