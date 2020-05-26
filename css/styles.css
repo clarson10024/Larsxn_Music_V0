@@ -155,14 +155,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Final Section - Call to action and distribution channel icons */
 
 #channels {
-    padding-top: 3rem;
+    padding-top: .25rem;
     background-color: black;
     color: white;
     text-align: center;
-    padding-bottom: 8rem;
+    padding-bottom: 3rem;
 }
 #cta {
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 .logo-box {
     text-align: center;
