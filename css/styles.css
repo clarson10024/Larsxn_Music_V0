@@ -73,7 +73,35 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-/* Sample Tracks page */
+/* Messages section */
+
+#message {
+    background-color: #c9d6df;
+    color: #1e2022;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 0rem;
+}
+#quote {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.msg-box {
+    font-family: "Montserrat";
+    font-style: normal;
+    text-align: left;;
+    font-size: 1.25rem;
+}
+.msg-items {
+    padding: 1.25rem;
+}
+#star {
+    height: 280px;
+    width: 280px;
+    padding-bottom: 1rem;
+}
+/* Sample Tracks section */
 
 #demos {
     background-color: white;
@@ -114,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
 }
 .btn-secondary {
-   background-color: #f0f5f9;
+   background-color: #c9d6df;
 }
 .fa-play-circle {
     font-size: 2rem;
@@ -123,34 +151,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 12rem;
 }
 
-/* Messages section */
 
-#message {
-    background-color: #c9d6df;
-    color: #1e2022;
-    font-weight: 700;
-    text-align: left;
-    padding-bottom: 0rem;
-}
-#quote {
-    font-size: 2.5rem;
-    font-weight: 800;
-    margin-bottom: 2rem;
-}
-.msg-box {
-    font-family: "Montserrat";
-    font-style: normal;
-    text-align: left;;
-    font-size: 1.25rem;
-}
-.msg-items {
-    padding: 1.25rem;
-}
-#star {
-    height: 280px;
-    width: 280px;
-    padding-bottom: 1rem;
-}
 /* Final Section - Call to action and distribution channel icons */
 
 #channels {
