@@ -202,7 +202,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     border-radius: 8px;
     padding: 5px 0;
-
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
@@ -211,10 +210,11 @@ h1, h2, h3, h4, h5, h6 {
   .email-btn:hover .tooltiptext {
     visibility: visible;
   }
-/* Slight size adjustment on mouse-over */
-/* .email-btn:hover {
-    transform: scale(1.25)
-} */
+
+  #ata-icon:hover {
+    transform: scale(1.05);
+  }
+
 #footer {
     text-align: center;
     font-size: 1.0rem;
