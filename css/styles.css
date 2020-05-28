@@ -89,10 +89,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 2rem;
 }
 .msg-box {
-    font-family: "Montserrat";
-    font-style: normal;
-    text-align: left;;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
 }
 .msg-items {
     padding: 1.25rem;
@@ -164,7 +161,6 @@ h1, h2, h3, h4, h5, h6 {
 } */
 .logo-box {
     text-align: center;
-    align-self: center;
     position: relative;
     padding: 1rem;
 }
@@ -223,17 +219,21 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 6rem;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 780px) {
+    .navbar {
+        padding: 0 0 2.5rem;
+    }
 
     #title {
         padding-top: 1rem;
         text-align: center;
-        padding-bottom: 6rem;
+        padding-bottom: 4rem;
     }
     #title .container-fluid {
-        padding: 3% 15% 3%;
+        padding: 0% 7% 0% 7%;
     }
     .big-heading {
+        font-size: 3.0rem;
         line-height: 1.0;
     }
     #cover {
@@ -244,20 +244,33 @@ h1, h2, h3, h4, h5, h6 {
     #coverart {
         margin-top: 20rem;
     }
+    #quote {
+        font-size: 1.5rem;
+        /* font-weight: 800;
+        margin-bottom: 2rem; */
+    }
+    .msg-items {
+        padding: .5rem;
+    }
+
     #star {
         width: 200px;
         height: 200px;
+    }
+    #demo-intro {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
     }
     .tracks-img {
         width: 180px;
         height: 180px;
     }
     #demos {
-        padding-top: 4rem;
+        padding-top: 2rem;
         background-color: white;
         position: relative;
         text-align: center;
-        padding-bottom: 6rem;
+        padding-bottom: 2rem;
     }
     .m-logos {
         align-self: center;
