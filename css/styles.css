@@ -123,16 +123,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* enlarges album covers */
 
-.zoom {
+.tracks-img {
     display: block;
-    transition: transform .2s; /* Animation */
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
     margin: auto auto 2rem auto;
 }
-.zoom:hover {
-    transform: scale(1.5); /* (150% zoom) */
-  }
 .track-title {
     font-size: 1.5rem;
     font-weight: 800
@@ -222,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.0rem;
     margin: 0;
     padding-top: 4rem;
-    padding-bottom: 8rem;
+    padding-bottom: 6rem;
 }
 
 @media screen and (max-width: 812px) {
