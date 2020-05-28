@@ -203,11 +203,11 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
   }
 
-  .email-btn:hover .tooltiptext {
+.email-btn:hover .tooltiptext {
     visibility: visible;
   }
 
-  #ata-icon:hover {
+#ata-icon:hover {
     transform: scale(1.05);
   }
 
@@ -252,7 +252,6 @@ h1, h2, h3, h4, h5, h6 {
     .msg-items {
         padding: .5rem;
     }
-
     #star {
         width: 200px;
         height: 200px;
@@ -272,6 +271,9 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
         padding-bottom: 2rem;
     }
+    #channels {
+        padding-top: 1rem;
+    }
     .m-logos {
         align-self: center;
         padding: 0;
@@ -289,23 +291,4 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 10rem
 
   }
-  /* @media only screen
-    and (min-device-width : 375px)
-    and (max-device-width : 812px)
-    and (-webkit-device-pixel-ratio : 3) {
-        #title {
-            padding-top: 12rem;
-
-            background-color: black;
-            color: white;
-            text-align: left;
-            padding-bottom: 28rem;
-        }
-        #footer {
-            text-align: center;
-            font-size: 1.0rem;
-            margin: 0;
-            padding-top: 4rem;
-            padding-bottom: 36rem
-        }
-    } */
+}
