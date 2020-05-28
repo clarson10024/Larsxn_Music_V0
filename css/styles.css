@@ -107,6 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 #demos {
     background-color: white;
     position: relative;
+    text-align: center;
 }
 #demo-intro {
     font-size: 3.5rem;
@@ -224,16 +225,22 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 4rem;
 }
 
-@media screen and (max-width: 1028px) {
-
+@media screen and (max-width: 812px) {
 
     #title {
-        padding-top: 10rem;
+        padding-top: 12rem;
 
         background-color: black;
         color: white;
         text-align: left;
-        padding-bottom: 22rem;
+        padding-bottom: 24rem;
+    }
+    #demos {
+        padding-top: 8rem;
+        background-color: white;
+        position: relative;
+        text-align: center;
+        padding-bottom: 10rem;
     }
     #footer {
         text-align: center;
@@ -243,4 +250,23 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 36rem
 
   }
+  @media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
+        #title {
+            padding-top: 12rem;
 
+            background-color: black;
+            color: white;
+            text-align: left;
+            padding-bottom: 28rem;
+        }
+        #footer {
+            text-align: center;
+            font-size: 1.0rem;
+            margin: 0;
+            padding-top: 4rem;
+            padding-bottom: 36rem
+        }
+    }
