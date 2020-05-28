@@ -221,15 +221,21 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 6rem;
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 1024px) {
 
     #title {
         padding-top: 2rem;
-
-        background-color: black;
-        color: white;
-        text-align: left;
+        text-align: center;
         padding-bottom: 12rem;
+    }
+    .big-heading {
+        line-height: 1.0;
+    }
+    #cover {
+        margin-top: 10%;
+    }
+    #coverart {
+        margin-top: 20rem;
     }
     #demos {
         padding-top: 4rem;
