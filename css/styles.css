@@ -121,7 +121,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 3.5%;
 }
-/* enlarges album covers */
 
 .tracks-img {
     display: block;
@@ -243,6 +242,16 @@ h1, h2, h3, h4, h5, h6 {
         position: relative;
         text-align: center;
         padding-bottom: 6rem;
+    }
+    .m-logos {
+        text-align: center;
+        display: block;
+        padding: 0;
+        border-radius: 0rem;
+        border: none;
+        height: 50px;
+        width: 100px;
+        margin: 0 0 0 0;
     }
     #footer {
         text-align: center;
