@@ -1,6 +1,12 @@
 body {
     font-family: "Montserrat";
     color:#1e2022;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-style: bold;
 }
 
 /* Navigation Bar */
@@ -29,11 +35,6 @@ body {
 
 /* First page title and cover art */
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat";
-    font-style: bold;
-}
-
 .big-heading {
     font-family: 'Montserrat';
     font-style: bold;
@@ -52,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 300px;
     height: 300px;
 }
+
 #coverart {
     height: 60%;
     width: 60%;
@@ -81,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #1e2022;
     font-weight: 700;
     text-align: left;
-    padding-bottom: 0rem;
 }
 #quote {
     font-size: 2.5rem;
@@ -91,10 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 .msg-box {
     font-size: 1.0rem;
 }
-.msg-items {
-    padding: 1.25rem;
-}
-#star {
+#star-pic {
     height: 280px;
     width: 280px;
     padding-bottom: 1rem;
@@ -104,18 +102,14 @@ h1, h2, h3, h4, h5, h6 {
 #demos {
     background-color: white;
     position: relative;
-    text-align: center;
 }
 #demo-intro {
     font-size: 3.5rem;
     font-weight: 900;
     color:#1e2022;
-    display: block;
-    text-align: center;
     margin-bottom: 3.5rem;
 }
 .demo-box {
-    text-align: center;
     padding: 3.5%;
 }
 
@@ -149,18 +143,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Final Section - Call to action and distribution channel icons */
 
 #channels {
-    padding-top: .25rem;
+    padding-top: 2.0rem;
     background-color: black;
     color: white;
     position: relative;
-    text-align: center;
     padding-bottom: 3rem;
 }
-/* #cta {
-    margin: 2rem 0;
-} */
+
 .logo-box {
-    text-align: center;
     position: relative;
     padding: 1rem;
 }
@@ -194,7 +184,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 140px;
     background-color:#c9d6df;
     color:  #52616B;
-    text-align: center;
     border-radius: 8px;
     border: solid 2px black;
     padding: 5px 0;
@@ -212,18 +201,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 #footer {
-    text-align: center;
     font-size: 1.0rem;
     margin: 0;
     padding-top: 4rem;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
 }
 
 @media (max-width: 780px) {
     .navbar {
         padding: 0 0 2.5rem;
     }
-
     #title {
         padding-top: 1rem;
         text-align: center;
@@ -241,20 +228,16 @@ h1, h2, h3, h4, h5, h6 {
         width: 200px;
         height: 200px;
     }
-    #coverart {
-        margin-top: 20rem;
-    }
     #quote {
         font-size: 1.5rem;
-        /* font-weight: 800;
-        margin-bottom: 2rem; */
     }
-    .msg-items {
-        padding: .5rem;
-    }
-    #star {
+    #star-pic {
         width: 200px;
         height: 200px;
+    }
+    #demos {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     #demo-intro {
         font-size: 2.5rem;
@@ -264,27 +247,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 180px;
         height: 180px;
     }
-    #demos {
-        padding-top: 2rem;
-        background-color: white;
-        position: relative;
-        text-align: center;
-        padding-bottom: 2rem;
-    }
-    #channels {
-        padding-top: 1rem;
-    }
-    .m-logos {
-        align-self: center;
-        padding: 0;
-        border-radius: 0rem;
-        border: none;
-        height: 50px;
-        width: 100px;
-        margin: 0 0 0 0;
-    }
     #footer {
-        text-align: center;
         font-size: 1.0rem;
         margin: 0;
         padding-top: 4rem;
