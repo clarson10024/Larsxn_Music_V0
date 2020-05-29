@@ -49,8 +49,14 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 16rem;
 }
 #cover {
-    width: 110%;
-    height: 110%;
+    width: 300px;
+    height: 300px;
+}
+#coverart {
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    right: 30%;
 }
 
 .container-fluid{
@@ -157,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 0 0;
 }
 .m-logos:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* Footer and social icons */
@@ -198,6 +204,18 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 4rem;
     padding-bottom: 8rem;
 }
+
+/* Style tweeks for Tablets */
+
+@media (max-width: 990px) {
+    #title {
+           /* padding-top: 1rem; */
+           text-align: center;
+           padding-bottom: 10rem;
+       }
+   }
+
+  /* Mobile Styling */
 
 @media (max-width: 780px) {
     .navbar {
