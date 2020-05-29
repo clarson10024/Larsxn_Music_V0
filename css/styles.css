@@ -81,19 +81,24 @@ h1, h2, h3, h4, h5, h6 {
     color: #1e2022;
     font-weight: 600;
     text-align: left;
+    position: relative;
 }
+
 #quote {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
 }
+
 .msg-box {
     font-size: 1.0rem;
 }
-#star-pic {
+
+.star-pic {
+    align-self: center;
     height: 280px;
     width: 280px;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 /* Sample Tracks section */
 
@@ -107,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
     color:#1e2022;
     margin-bottom: 3.5rem;
 }
+
 .demo-box {
     padding: 3.5%;
 }
@@ -210,10 +216,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 990px) {
     #title {
            /* padding-top: 1rem; */
-           text-align: center;
-           padding-bottom: 10rem;
-       }
-   }
+        text-align: center;
+        padding-bottom: 10rem;
+    }
+    .pic-box {
+        text-align: center;
+    }
+}
 
   /* Mobile Styling */
 
@@ -241,7 +250,10 @@ h1, h2, h3, h4, h5, h6 {
     #quote {
         font-size: 1.75rem;
     }
-    #star-pic {
+    .pic-box {
+        text-align: center;
+    }
+    .star-pic {
         width: 200px;
         height: 200px;
     }
