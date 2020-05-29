@@ -37,8 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .big-heading {
     font-family: 'Montserrat';
-    font-style: bold;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 3.5rem;
     line-height: 1.5;
 }
@@ -81,12 +80,12 @@ h1, h2, h3, h4, h5, h6 {
 #message {
     background-color: #c9d6df;
     color: #1e2022;
-    font-weight: 700;
+    font-weight: 600;
     text-align: left;
 }
 #quote {
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom: 2rem;
 }
 .msg-box {
@@ -105,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #demo-intro {
     font-size: 3.5rem;
-    font-weight: 900;
+    font-weight: 600;
     color:#1e2022;
     margin-bottom: 3.5rem;
 }
@@ -121,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .track-title {
     font-size: 1.5rem;
-    font-weight: 800
+    font-weight: 500
 }
 .play-btn {
     align-self: center;
