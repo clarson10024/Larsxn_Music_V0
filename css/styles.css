@@ -49,15 +49,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 16rem;
 }
 #cover {
-    width: 300px;
-    height: 300px;
-}
-
-#coverart {
-    height: 60%;
-    width: 60%;
-    position: absolute;
-    right: 30%;
+    width: 110%;
+    height: 110%;
 }
 
 .container-fluid{
@@ -114,8 +107,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .tracks-img {
     display: block;
-    width: 220px;
-    height: 220px;
+    width: 40%;
+    height: 40%;
     margin: auto auto 2rem auto;
 }
 .track-title {
@@ -228,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
         height: 200px;
     }
     #quote {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
     #star-pic {
         width: 200px;
