@@ -92,6 +92,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .msg-box {
     font-size: 1.25rem;
+    /* color: #c9d6df; */
+    color:  #52616b;
 }
 
 .star-pic {
