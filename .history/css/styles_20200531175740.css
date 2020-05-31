@@ -276,7 +276,10 @@ h1, h2, h3, h4, h5, h6 {
         height: 200px;
     }
     .for-mobile-spacing {
-        padding-bottom: 2rem;
+        margin-top: 50rem;
+        padding-bottom: 50rem;
+        margin-bottom: 50rem;
+        background-color: black;
     }
     #demos {
         padding-top: 2rem;

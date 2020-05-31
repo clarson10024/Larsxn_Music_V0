@@ -276,7 +276,9 @@ h1, h2, h3, h4, h5, h6 {
         height: 200px;
     }
     .for-mobile-spacing {
+        /* margin-top: 50rem; */
         padding-bottom: 2rem;
+        /* margin-bottom: 50rem; */
     }
     #demos {
         padding-top: 2rem;
