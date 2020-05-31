@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     font-size: 35px;
     position: relative;
-    margin: 0 .5rem 0 .5rem;
+    margin: 2rem;
     cursor: pointer; /* Mouse pointer on hover */
 }
 
