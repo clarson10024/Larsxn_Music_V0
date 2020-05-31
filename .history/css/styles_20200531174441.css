@@ -86,8 +86,12 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
+.msg-container {
+    padding-bottom: 50;
+}
+
 #quote {
-    padding-top: 2.0rem;
+    padding-top: 2.5rem;
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
@@ -292,5 +296,6 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
         padding-top: 4rem;
         padding-bottom: 10rem
+
   }
 }

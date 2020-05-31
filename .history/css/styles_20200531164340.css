@@ -9,15 +9,6 @@ h1, h2, h3, h4, h5, h6 {
     font-style: bold;
 }
 
-/* First page title and cover art section */
-
-#title {
-    background-color: black;
-    color: white;
-    text-align: left;
-    padding-bottom: 16rem;
-}
-
 /* Navigation Bar */
 
 .navbar {
@@ -42,6 +33,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
 }
 
+/* First page title and cover art section */
+
 .big-heading {
     font-family: 'Montserrat';
     font-weight: 800;
@@ -49,11 +42,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
+#title {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-bottom: 16rem;
+}
 #cover {
     width: 350px;
     height: 350px;
 }
-
 #coverart {
     height: 60%;
     width: 60%;
@@ -87,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #quote {
-    padding-top: 2.0rem;
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
@@ -111,13 +108,11 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
     position: relative;
 }
-
 #demo-intro {
     font-size: 3.5rem;
     font-weight: 600;
     color:#1e2022;
     margin-bottom: 3.5rem;
-    padding-bottom: .75rem;
 }
 
 .demo-box {
@@ -130,12 +125,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 40%;
     margin: auto auto 2rem auto;
 }
-
 .track-title {
     font-size: 1.5rem;
     font-weight: 500
 }
-
 .play-btn {
     align-self: center;
     color: #52616b;
@@ -143,15 +136,12 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid #52616b;
     margin-bottom: 1rem;
 }
-
 .btn-secondary {
    background-color: #c9d6df;
 }
-
 .fa-play-circle {
     font-size: 2rem;
 }
-
 #audio-control {
     width: 12rem;
 }
@@ -170,7 +160,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     padding: 1rem;
 }
-
 .m-logos {
     align-self: center;
     position: relative;
@@ -181,7 +170,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100px;
     margin: 0 0 0 0;
 }
-
 .m-logos:hover {
     transform: scale(1.1);
 }
@@ -195,15 +183,18 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 8rem;
     text-align: center;
 }
-
+.footer-buttons {
+    text-align: center;
+}
 .social-icon {
     color: #52616B;
     border: none;
     font-size: 35px;
+    padding: 0 0rem 0 0;
+    margin-right: 1rem;
     position: relative;
     cursor: pointer; /* Mouse pointer on hover */
 }
-
 .email-btn .tooltiptext {
     visibility: hidden;
     font-size: 1rem;
@@ -212,8 +203,9 @@ h1, h2, h3, h4, h5, h6 {
     color:  #52616B;
     border-radius: 8px;
     border: solid 2px black;
+    padding: 2px 0;
+    margin-left: 0rem;
     /* Position the tooltip */
-    margin-left: -1rem;
     position: absolute;
     z-index: 1;
   }
@@ -225,6 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 #ata-icon:hover {
     transform: scale(1.05);
   }
+
 
 /* Style tweeks for Tablets */
 
@@ -292,5 +285,6 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
         padding-top: 4rem;
         padding-bottom: 10rem
+
   }
 }

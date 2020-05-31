@@ -84,10 +84,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     text-align: left;
     position: relative;
+    padding-top: 50;
 }
 
 #quote {
-    padding-top: 2.0rem;
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
@@ -111,7 +111,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
     position: relative;
 }
-
 #demo-intro {
     font-size: 3.5rem;
     font-weight: 600;
@@ -130,12 +129,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 40%;
     margin: auto auto 2rem auto;
 }
-
 .track-title {
     font-size: 1.5rem;
     font-weight: 500
 }
-
 .play-btn {
     align-self: center;
     color: #52616b;
@@ -143,15 +140,12 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid #52616b;
     margin-bottom: 1rem;
 }
-
 .btn-secondary {
    background-color: #c9d6df;
 }
-
 .fa-play-circle {
     font-size: 2rem;
 }
-
 #audio-control {
     width: 12rem;
 }
@@ -165,12 +159,10 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     padding-bottom: 3rem;
 }
-
 .logo-box {
     position: relative;
     padding: 1rem;
 }
-
 .m-logos {
     align-self: center;
     position: relative;
@@ -181,7 +173,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100px;
     margin: 0 0 0 0;
 }
-
 .m-logos:hover {
     transform: scale(1.1);
 }
@@ -195,7 +186,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 8rem;
     text-align: center;
 }
-
 .social-icon {
     color: #52616B;
     border: none;
@@ -203,7 +193,9 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     cursor: pointer; /* Mouse pointer on hover */
 }
-
+.email-btn {
+    margin-left: 0rem;
+}
 .email-btn .tooltiptext {
     visibility: hidden;
     font-size: 1rem;
@@ -292,5 +284,6 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
         padding-top: 4rem;
         padding-bottom: 10rem
+
   }
 }
