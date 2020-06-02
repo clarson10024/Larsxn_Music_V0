@@ -220,6 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 .email-btn:hover .tooltiptext {
+
     visibility: visible;
   }
 
@@ -295,12 +296,6 @@ h1, h2, h3, h4, h5, h6 {
         width: 180px;
         height: 180px;
     }
-    .email-btn .tooltiptext {
-        /* Position the tooltip */
-        margin-left: -4rem;
-        position: absolute;
-        z-index: 1;
-      }
     #footer {
         font-size: 1.0rem;
         margin: 0;
