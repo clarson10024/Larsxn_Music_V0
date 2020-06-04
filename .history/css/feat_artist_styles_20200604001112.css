@@ -45,7 +45,7 @@
 @media (max-width: 990px) {
     #title {
         text-align: center;
-        padding-bottom: 14rem;
+        padding-bottom: 20rem;
     }
     #artists {
         text-align: center;
@@ -71,7 +71,7 @@
     #title {
         padding-top: 1rem;
         text-align: center;
-        padding-bottom: 12rem;
+        padding-bottom: 10rem;
     }
     #title .container-fluid {
         padding: 0% 7% 0% 7%;
