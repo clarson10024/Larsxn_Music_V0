@@ -40,15 +40,7 @@
 }
 
 .art-m-logos {
-    align-self: center;
-    position: relative;
-    padding: 0;
-    border-radius: 0rem;
-    border: none;
-    height: 50px;
-    width: 100px;
-    margin: 0 0 2.5rem 0;
-    padding-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 
@@ -65,9 +57,9 @@
     .pic-box {
         text-align: center;
     }
-    /* .art-m-logos {
-        margin-bottom: 1.5rem;
-    } */
+    .art-m-logos {
+        margin-bottom: 2.5rem;
+    }
     Borrowing mobile spacing div for tablet
     .for-mobile-spacing {
         padding-bottom: 2rem;

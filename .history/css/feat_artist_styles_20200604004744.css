@@ -40,14 +40,8 @@
 }
 
 .art-m-logos {
-    align-self: center;
-    position: relative;
-    padding: 0;
-    border-radius: 0rem;
-    border: none;
-    height: 50px;
-    width: 100px;
-    margin: 0 0 2.5rem 0;
+
+    /* margin-bottom: 22.5rem; */
     padding-bottom: 2.5rem;
 }
 
