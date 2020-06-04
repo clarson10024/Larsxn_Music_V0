@@ -43,12 +43,12 @@
     #title {
            /* padding-top: 1rem; */
         text-align: center;
-        padding-bottom: 16rem;
+        padding-bottom: 12rem;
     }
-    /* #artists-title {
+    #artists-title {
         font-size: 2.5rem;
         padding-top: .5rem;
-    } */
+    }
     #artists {
         text-align: center;
     }
@@ -88,7 +88,7 @@
         height: 200px;
     }
     #artists-title {
-        padding-top: 1.75rem;
+        padding-top: 1.5rem;
         font-size: 2.0rem;
     }
     #artists {
