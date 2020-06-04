@@ -10,14 +10,14 @@
     gtag('js', new Date());
     // gtag('config', 'G-J84B8HBDE2');
     gtag('config', 'G-J84B8HBDE2', {
-    'page_title' : 'Larsxn - New Music',
+    'page_title' : 'Away Artists',
     'page_location': 'www.larsxn.com'
     });
   </script>
 
   <meta charset="utf-8">
   <title>Larsxn - New Music</title>
-  <meta name="description" content="Music by Larsxn - New Hip Hop and Pop. Music composition and collaboration. Vocals and instrumentals. Performance, mixing and recording.">
+  <meta name="description" content="Music by Larsxn - 'Away' Featured Artists">
   <meta name="keywords" content="Larsxn, music, new artist, composer, producer, vocals, instrumentals, video, hip hop, pop, chill, spotify, apple music, soundcloud, hits, top, Away, Never Stop Me, Ungrateful, Changes">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +31,8 @@
 
   <!-- Boostrap and my CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="Larsxn_music/css/styles.css">
+  <link rel="stylesheet" href="/css/feat_artist_styles.css">
 
   <!--Favicon links-->
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -71,15 +72,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="pages/Away_artists.html">Artists</a>
-          </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#demos">Tracks</a>
-            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link" href="index.html#demos">Tracks</a>
+           </li>
            <li class="nav-item">
               <a class="nav-link" href="mailto:info@larsxn.com?subject=Hey Larsxn!">Contact</a>
-            </li>
+           </li>
           </ul>
         </div>
       </nav>
@@ -88,16 +89,7 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="big-heading">New Music:  'Away'</h1>
-          <!--Bootrap button classes with Fontawesome icons-->
-          <!-- event, category, action, label, value -->
-          <button type="button" onclick="window.location.href = 'https://music.apple.com/us/album/away-ep/1514508259';"
-            "callGtag('AppleStore','purchase?','buttonclick', 'TitlePage', 1)"
-            class="btn btn-dark btn-lg buy-btn">
-            <i class="fab fa-apple"></i> Music</button>
-          <button type="button" onclick="window.location.href = 'https://play.google.com/store/music/album/Larsxn_Away?id=Byehstl5guajeqolk7y23i437ti&hl=en_US';"
-            class="btn btn-outline-light btn-lg buy-btn">
-            <i class="fab fa-google-play"></i> Play</button>
+          <h1 class="big-heading">Featured Artists on 'Away'</h1>
         </div>
         <div id="cover_art" class="col-lg-6">
           <img id="cover" src="images/Away_cover.jpeg"  alt="Away cover art">
@@ -106,84 +98,79 @@
     </div>
   </section>
 
-<!-- Larsxn Message -->
+<!-- Featured Artists -->
 
-<section id="message">
+<section id="artists">
   <div class="container-fluid msg-container">
-    <h3 id="quote"> "If you aren't saying things from the heart... what's the point?"</h3>
+    <h3 id="artists-title"> Artists and Collaborators</h3>
     <div class="row msg-items">
       <div class="pic-box col-lg-6">
-        <img class="star-pic" src="images/Larsxn_shades.jpeg" alt="Larsxn pic wearing shades">
+        <img class="star-pic" src="images/Oly_Amo.jpeg" alt="Oly Amo pic">
       </div>
       <div class="msg-box col-lg-6">
-        <p>Those who know the high that comes when creating, they'll know why
-            making music is what I want to do.  It's just the greatest feeling. So is
-            working with others, creating something bigger than all of us. Beauty.  I hope
-            you like our work.
+        <h2>Oly Amo</h2>
+        <p><span class="artist_tag">'Oly's tag line goes here....'</span> <br><br>
+            Vocals on 'Away', 'Weightless' and 'Never Stop Me'<br><br>
+            Listen to more of Oly Amo's work <br>
         </p>
-      </div>
-      </div>
-    <div class="row msg-items">
-      <div class="msg-box col-lg-6">
-        <p>Gratitude to Oly Amo, Ktm Chano, Chris Shoda, Kid Ocean and
-          ThunderHoodie.  They're the best. On fire. Collective creation is a gift that
-          keeps on giving.
-          <br><br>
-          If you're into making music and want to join a crew for a project, send me some mail.  Let's connect.
-          <br><br>
-          Peace,
-          <br>
-          - Larsxn
-        </p>
-      </div>
-      <div class="pic-box col-lg-6">
-        <img class="star-pic" src="images/Larsxn_studio.jpeg" alt="Larsxn redording studio pic">
+        <button class="btn btn-outline-light btn-lg m-logos">
+            <img class='m-logos'src="images/2020_soundcloudlogo.png"
+              onclick = "window.location.href = 'https://soundcloud.com/olylyubimov'">
+        </button>
       </div>
     </div>
+    <div class="row msg-items">
+        <div class="pic-box col-lg-6">
+          <img class="star-pic" src="images/KTM_Chano.png" alt="KTM Chano pic">
+        </div>
+        <div class="msg-box col-lg-6">
+          <h2>Ktm Chano</h2>
+          <p><span class="artist_tag">'Just trying to make dreams come true.'</span> <br><br>
+            Vocals on 'Never Stop Me'<br><br>
+            Listen to more of Ktm Chano's work
+          </p>
+          <button class="btn btn-outline-light btn-lg m-logos">
+            <img class='m-logos'src="images/2020_soundcloudlogo.png"
+              onclick = "window.location.href = 'https://soundcloud.com/chandler-sutherland'">
+        </button>
+        </div>
+    </div>
+    <div class="row msg-items">
+        <div class="pic-box col-lg-6">
+          <img class="star-pic" src="images/Chris_Shoda.jpeg" alt="Chris Shoda pic">
+        </div>
+        <div class="msg-box col-lg-6">
+          <h2>Chris Shoda</h2>
+          <p><span class="artist_tag">'Pursue your dreams until they pursue you.'</span><br><br>
+            Vocals on 'Changes'<br><br>
+            Listen to more of Chris Shoda's work
+          </p>
+          <button class="btn btn-outline-light btn-lg m-logos">
+            <img class='m-logos'src="images/2020_soundcloudlogo.png"
+              onclick = "window.location.href = 'https://soundcloud.com/officialshoda'">
+        </button>
+        </div>
+    </div>
+    <div class="row msg-items">
+      <div class="pic-box col-lg-6">
+        <img class="star-pic" src="images/Larsxn_city.jpeg" alt="KTM Chano pic">
+      </div>
+      <div class="msg-box col-lg-6">
+        <h2>Larsxn</h2>
+        <p><span class="artist_tag">'It's got to be from the heart.'</span><br><br>
+          Vocals on 'Changes', 'Away', 'Ungrateful', 'Weightless' and 'Never Stop Me'<br><br>
+          Let's make music.
+        </p>
+        <!-- <button class="btn btn-outline-light btn-lg m-logos">
+          <img class='m-logos'src="images/2020_soundcloudlogo.png"
+            onclick = "window.location.href = 'https://soundcloud.com/officialshoda'">
+      </button> -->
+    </div>
+  </div>
   </div>
   <div class=for-mobile-spacing>  </div>
 </section>
 
-  <!-- Demos -->
-
-  <section id="demos">
-     <div class="container-fluid">
-      <h3 id="demo-intro"> Larsxn Sample Tracks</h3>
-      <img id="tracks" class="tracks-img" src="images/Away_cover.jpeg"  alt="Away cover icon"/>
-        <div class="row demo-items">
-          <div id= "Changes" class="demo-box col-lg-4 col-md-4 col-sm-6">
-            <button id="play1" type="button"
-              onclick="playAudio('play1', 'audio/Changes.m4a')"
-              class="btn btn-secondary btn-lg play-btn">
-              <i class="fas fa-play-circle"></i>
-            </button>
-            <h3 class="track-title">'Changes'</h3>
-            <p>(feat. Chris Shoda)</p>
-          </div>
-          <div class="demo-box col-lg-4 col-md-4 col-sm-6">
-            <button id="play2" type="button"
-              onclick="playAudio('play2', 'audio/Ungrateful.m4a')"
-              class="btn btn-secondary btn-lg play-btn">
-              <i class="fas fa-play-circle"></i>
-            </button>
-            <h3 class="track-title">'Ungrateful'</h3>
-            <p></p>
-          </div>
-          <div class="demo-box col-lg-4 col-md-4 col-sm-6">
-            <button id="play3" type="button"
-            onclick="playAudio('play3', 'audio/Never_Stop_Me.mp3')"
-            class="btn btn-secondary btn-lg play-btn">
-            <i class="fas fa-play-circle"></i>
-          </button>
-            <h3 class="track-title">'Never Stop Me'</h3>
-            <p>(feat. Oly Amo & Ktm Chano)</p>
-          </div>
-        </div>
-        <br>
-        <a class="artist-link" href="pages/Away_artists.html">Artists</a> <br><br>
-       </div>
-      </div>
-  </section>
 
   <!-- Distribution Channel listing with links -->
 
@@ -250,29 +237,6 @@
       <p>© Copyright 2020 Larsxn</p>
     </div>
   </footer>
-
-  <script>
-
-    // Audio JS script //
-
-    function playAudio(play_id, song) {
-
-      var audio = document.createElement("AUDIO");
-      audio.id = "audio-control"
-
-      if (audio.canPlayType("audio/mpeg")) {
-        audio.setAttribute("src", song);
-      } else {
-        audio.setAttribute("src","horse.ogg");
-      }
-      audio.setAttribute("controls", "controls");
-
-      var target = document.getElementById(play_id);
-      var parentDiv = target.parentNode;
-      parentDiv.replaceChild(audio,target)
-      document.getElementById("audio-control").setAttribute("style", "; color: white;");
-    }
-  </script>
 
   <!-- AddToAny Social Media Share Button Scripts -->
   <script>
