@@ -1,13 +1,13 @@
-body {
+/* body {
     font-family: "Montserrat";
     color:#1e2022;
     text-align: center;
-}
+} */
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
     font-style: bold;
-}
+} */
 
 /* First page title and cover art section */
 
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 16rem;
 }
 
-/* Navigation Bar */
+/* Navigation Bar
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
     font-style: light;
     font-weight: 100;
-}
+} */
 
 .big-heading {
     font-family: 'Montserrat';
@@ -71,22 +71,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Apple Music & Google Play buttons */
 
-.buy-btn {
+/* .buy-btn {
    margin: 10% 3% 5% 3%;
 
-}
+} */
 
 /* Artist messages section */
 
-#message {
+#artists {
     background-color: #c9d6df;
     color: #1e2022;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
     position: relative;
 }
 
-#quote {
+#artists-title {
     padding-top: 2.0rem;
     font-size: 2.5rem;
     font-weight: 600;
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .demo-box {
-    padding: 3.0%;
+    padding: 3.5%;
 }
 
 .tracks-img {
@@ -154,22 +154,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #audio-control {
     width: 12rem;
-}
-
-.artist-link {
-    font-style: bold;
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-decoration: none;
-    color:  #52616b;
-    padding-bottom: 1rem;
-    margin-top: 10rem;
-    margin-bottom: 2rem;
-}
-.artist-link:hover {
-    color: black;
-    font-size: 1.75rem;
-    text-decoration: none;
 }
 
 /* Final Section - Call to action and distribution channel icons */
@@ -249,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
     #title {
            /* padding-top: 1rem; */
         text-align: center;
-        padding-bottom: 12rem;
+        padding-bottom: 10rem;
     }
     .pic-box {
         text-align: center;

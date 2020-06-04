@@ -1,13 +1,13 @@
-body {
+/* body {
     font-family: "Montserrat";
     color:#1e2022;
     text-align: center;
-}
+} */
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
     font-style: bold;
-}
+} */
 
 /* First page title and cover art section */
 
@@ -15,31 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: black;
     color: white;
     text-align: left;
-    padding-bottom: 16rem;
-}
-
-/* Navigation Bar */
-
-.navbar {
-    padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #1e2022;
-}
-
-.nav-item {
-    padding: 0 18px;
-}
-
-.nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat";
-    font-style: light;
-    font-weight: 100;
+    padding-bottom: 10rem;
 }
 
 .big-heading {
@@ -69,16 +45,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 7% 15% 7%;
 }
 
-/* Apple Music & Google Play buttons */
+/* Featured artist section */
 
-.buy-btn {
-   margin: 10% 3% 5% 3%;
-
-}
-
-/* Artist messages section */
-
-#message {
+#artists {
     background-color: #c9d6df;
     color: #1e2022;
     font-weight: 600;
@@ -86,11 +55,15 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-#quote {
+#artists-title {
     padding-top: 2.0rem;
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
+    text-align: center;
+}
+.artist_tag {
+    font-style: italic;
 }
 
 .msg-box {
@@ -105,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 320px;
     margin-bottom: 1rem;
 }
-/* Sample Tracks section */
+/* Sample Tracks section
 
 #demos {
     background-color: white;
@@ -121,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .demo-box {
-    padding: 3.0%;
+    padding: 3.5%;
 }
 
 .tracks-img {
@@ -154,26 +127,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #audio-control {
     width: 12rem;
-}
-
-.artist-link {
-    font-style: bold;
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-decoration: none;
-    color:  #52616b;
-    padding-bottom: 1rem;
-    margin-top: 10rem;
-    margin-bottom: 2rem;
-}
-.artist-link:hover {
-    color: black;
-    font-size: 1.75rem;
-    text-decoration: none;
-}
+} */
 
 /* Final Section - Call to action and distribution channel icons */
-
+/*
 #channels {
     padding-top: 2.0rem;
     background-color: black;
@@ -200,11 +157,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .m-logos:hover {
     transform: scale(1.1);
-}
+} */
 
 /* Footer and social icons */
 
-#footer {
+/* #footer {
     font-size: 1.0rem;
     margin: 0;
     padding-top: 4rem;
@@ -241,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #ata-icon:hover {
     transform: scale(1.05);
-  }
+  } */
 
 /* Style tweeks for Tablets */
 
@@ -249,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
     #title {
            /* padding-top: 1rem; */
         text-align: center;
-        padding-bottom: 12rem;
+        padding-bottom: 10rem;
     }
     .pic-box {
         text-align: center;
@@ -283,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 200px;
         height: 200px;
     }
-    #quote {
+    #artist-title {
         font-size: 1.75rem;
     }
     .msg-box {

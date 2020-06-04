@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 .artist-link {
     font-style: bold;
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 900;
     text-decoration: none;
     color:  #52616b;
     padding-bottom: 1rem;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
     #title {
            /* padding-top: 1rem; */
         text-align: center;
-        padding-bottom: 12rem;
+        padding-bottom: 10rem;
     }
     .pic-box {
         text-align: center;
