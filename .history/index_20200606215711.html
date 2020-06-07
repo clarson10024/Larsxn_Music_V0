@@ -71,9 +71,9 @@
     fbq('init', '290602945310816');
     fbq('track', 'PageView');
     // Custom Facebook pixel events to track demo plays
-    // fbq('trackCustom', 'play1')
-    // fbq('trackCustom', 'play2')
-    // fbq('trackCustom', 'play3')
+    fbq('trackCustom', 'play1')
+    fbq('trackCustom', 'play2')
+    fbq('trackCustom', 'play3')
   </script>
   <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=290602945310816&ev=PageView&noscript=1"
@@ -186,7 +186,7 @@
         <div class="row demo-items">
           <div id= "Changes" class="demo-box col-lg-4 col-md-4 col-sm-6">
             <button id="play1" type="button"
-              onclick="playAudio('play1', 'audio/Changes.m4a') fbq('trackCustom', 'play1')"
+              onclick="playAudio('play1', 'audio/Changes.m4a')"
               class="btn btn-secondary btn-lg play-btn">
               <i class="fas fa-play-circle"></i>
             </button>
