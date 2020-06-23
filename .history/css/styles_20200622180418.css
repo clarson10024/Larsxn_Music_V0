@@ -50,9 +50,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #cover {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+    width: 350px;
+    height: 350px;
 }
 
 #coverart {
@@ -102,9 +101,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .star-pic {
     align-self: center;
-    height: auto;
-    width: 100%;
-    max-width: 500px;
+    height: 30vh;
+    width: 30vw;
     margin-bottom: 1rem;
 }
 /* Sample Tracks section */
@@ -128,9 +126,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .tracks-img {
     display: block;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+    width: 350px;
+    height: 350px;
     margin: auto auto 2rem auto;
 }
 
@@ -248,20 +245,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style tweeks for Tablets */
 
-@media (max-width: 1200px) {
+@media (max-width: 990px) {
     #title {
            /* padding-top: 1rem; */
         text-align: center;
         padding-bottom: 12rem;
-    }
-    #cover {
-        max-width: 350px;
-    }
-    .star-pic {
-        max-width: 350px;
-    }
-    .tracks-img {
-        max-width: 350px;
     }
     .pic-box {
         text-align: center;
