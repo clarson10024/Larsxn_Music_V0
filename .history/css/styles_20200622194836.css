@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: black;
     color: white;
     text-align: left;
-    /* padding-bottom: 0rem; */
+    padding-bottom: 0rem;
 }
 
 /* Navigation Bar */
@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
     #title {
            /* padding-top: 1rem; */
         text-align: center;
-        padding-bottom: 0rem;
+        padding-bottom: 12rem;
     }
     #cover {
         max-width: 350px;
