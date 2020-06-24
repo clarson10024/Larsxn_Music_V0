@@ -194,16 +194,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo-box {
     position: relative;
-    align-self: center;
     padding: 1rem;
 }
 
 .m-logos {
-    margin-left: -1rem;
     align-self: center;
+    position: relative;
     border-radius: 0rem;
+    /* border: none; */
     height: 50px;
     width: 100px;
+    margin: 0rem 0 0 0;
 }
 
 .m-logos:hover {
