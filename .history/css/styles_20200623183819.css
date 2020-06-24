@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.25rem;
     color:  #52616b;
     align-self: center;
-    /* padding-right: .5rem; */
+    /* max-width: 800px; */
 
 }
 
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     width: 100%;
     max-width: 500px;
-    margin-top: 1rem;
+    padding-left: rem;
     margin-bottom: 1rem;
 }
 /* Sample Tracks section */
@@ -255,12 +255,13 @@ h1, h2, h3, h4, h5, h6 {
     #title {
            /* padding-top: 1rem; */
         text-align: center;
+        padding-bottom: 14rem;
     }
     #cover {
-        max-width: 400px;
+        max-width: 350px;
     }
     .star-pic {
-        max-width: 400px;
+        max-width: 350px;
     }
     .tracks-img {
         max-width: 350px;
