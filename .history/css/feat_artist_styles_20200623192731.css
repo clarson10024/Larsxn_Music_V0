@@ -14,7 +14,7 @@
     padding-top: 1rem;
     font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 .artist_tag {
@@ -50,7 +50,7 @@
     padding-bottom: 2.5rem;
 }
 .art-m-logos:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 
@@ -86,6 +86,7 @@
         padding-top: 1rem;
         text-align: center;
         padding-bottom: 10rem;
+        margin-bottom: 2rem;
     }
     #title .container-fluid {
         padding: 0% 7% 0% 7%;
@@ -102,7 +103,6 @@
     #artists-title {
         padding-top: 1.75rem;
         font-size: 2.0rem;
-        margin-bottom: 2rem;
     }
     #artists {
         text-align: center;

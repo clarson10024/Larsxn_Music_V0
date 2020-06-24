@@ -14,7 +14,7 @@
     padding-top: 1rem;
     font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 .artist_tag {
@@ -50,7 +50,7 @@
     padding-bottom: 2.5rem;
 }
 .art-m-logos:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 
