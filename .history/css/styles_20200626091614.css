@@ -79,9 +79,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Artist messages section */
 
-.msg-container {
-    align-self: left;
-}
 #message {
     background-color: #c9d6df;
     color: #1e2022;
@@ -92,13 +89,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #quote {
     padding-top: 2.0rem;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
     align-self: center;
 }
 
 .msg-box {
+    /* font-size: 1.25rem; */
     font-size: 1.5vw;
     color:  #52616b;
     align-self: center;
@@ -106,15 +104,11 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.pic-box {
-    align-self: left;
-}
-
 .star-pic {
-    align-self: left;
+    align-self: center;
     height: auto;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -270,17 +264,11 @@ h1, h2, h3, h4, h5, h6 {
     #cover {
         max-width: 400px;
     }
-    #quote {
-        font-size: 2.5rem;
-    }
     .star-pic {
         max-width: 400px;
     }
     .tracks-img {
         max-width: 350px;
-    }
-    .msg-box {
-        font-size: 1.3rem;
     }
     .pic-box {
         text-align: center;

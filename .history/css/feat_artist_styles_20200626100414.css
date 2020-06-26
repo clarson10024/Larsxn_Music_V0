@@ -1,8 +1,6 @@
 
 /* Featured artist section */
-h2 {
-    font-size: 2.5vw;
-}
+
 
 #artists {
     background-color: #c9d6df;
@@ -14,14 +12,14 @@ h2 {
 
 #artists-title {
     padding-top: 1rem;
-    font-size: 3.0vw;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 4rem;
     text-align: center;
 }
 .artist_tag {
     font-style: italic;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 .msg-box {
@@ -63,13 +61,15 @@ h2 {
         text-align: center;
         padding-bottom: 14rem;
     }
-    /* #artists {
+    #artists {
         text-align: center;
-    } */
+    }
     .pic-box {
         text-align: center;
     }
-
+    /* .art-m-logos {
+        margin-bottom: 1.5rem;
+    } */
     Borrowing mobile spacing div for tablet
     .for-mobile-spacing {
         padding-bottom: 2rem;
@@ -78,11 +78,7 @@ h2 {
 
   /* Mobile Styling */
 
-/* @media (max-width: 780px) { */
-@media (max-width: 990px) {
-    h2 {
-        font-size: 2rem;
-    }
+@media (max-width: 780px) {
     .navbar {
         padding: 0 0 2.5rem;
     }
@@ -112,13 +108,8 @@ h2 {
         text-align: center;
         padding-bottom: -1.25rem;
     }
-    .artist_tag {
-        font-style: italic;
-        font-size: 1.0rem;
-    }
-
     .msg-box {
-        font-size: 1.0rem;
+        font-size: 1.5rem;
     }
     .pic-box {
         text-align: center;

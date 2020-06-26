@@ -58,18 +58,21 @@ h2 {
 
 /* Style tweeks for Tablets */
 
-@media (max-width: 1200px) {
+@media (max-width: 980px) {
     #title {
         text-align: center;
         padding-bottom: 14rem;
     }
-    /* #artists {
-        text-align: center;
-    } */
-    .pic-box {
+    #artists {
         text-align: center;
     }
 
+    .pic-box {
+        text-align: center;
+    }
+    /* .art-m-logos {
+        margin-bottom: 1.5rem;
+    } */
     Borrowing mobile spacing div for tablet
     .for-mobile-spacing {
         padding-bottom: 2rem;
@@ -78,8 +81,7 @@ h2 {
 
   /* Mobile Styling */
 
-/* @media (max-width: 780px) { */
-@media (max-width: 990px) {
+@media (max-width: 780px) {
     h2 {
         font-size: 2rem;
     }
@@ -114,7 +116,7 @@ h2 {
     }
     .artist_tag {
         font-style: italic;
-        font-size: 1.0rem;
+        font-size: 1.5rem;
     }
 
     .msg-box {
