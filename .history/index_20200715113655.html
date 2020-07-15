@@ -96,11 +96,8 @@
             <li class="nav-item">
               <a class="nav-link" href="pages/Away_Artists.html" onclick="fbq('trackCustom', 'Artists')">Artists</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#channels" onclick="fbq('trackCustom', 'Channels')">Stream</a>
-          </li>
             <li class="nav-item">
-              <a class="nav-link" href="#demos" onclick="fbq('trackCustom', 'Demos')">Sample</a>
+              <a class="nav-link" href="#demos" onclick="fbq('trackCustom', 'Demos')">Tracks</a>
             </li>
            <li class="nav-item">
               <a class="nav-link" href="mailto:info@larsxn.com?subject=Hey Larsxn!" onclick="fbq('trackCustom', 'Contact')">Contact</a>
@@ -116,14 +113,13 @@
           <h1 class="big-heading">New Music:  'Away'</h1>
           <!--Bootstrap button classes with Fontawesome icons-->
           <!-- event, category, action, label, value -->
-          <button type="button" onclick="window.location.href = '#channels'; fbq('trackCustom', 'ChannelsLanding');"
+          <button type="button" onclick="window.location.href = 'https://music.apple.com/us/album/away-ep/1514508259'; fbq('trackCustom', 'AppleLanding');"
             class="btn btn-dark btn-lg buy-btn">
-            <i class="fas fa-cloud-download-alt"></i> Stream</button>
+            <i class="fab fa-stream"></i> Stream</button>
             <!-- <i class="fab fa-apple"></i> Music</button> -->
-          <button type="button" onclick="window.location.href = '#demos'; fbq('trackCustom', 'DemosLanding');"
-             class="btn btn-outline-light btn-lg buy-btn">
-            <i class="fas fa-download"></i> Sample</button>
-            <!-- <i class="fab fa-spotify"></i> Spotify</button> -->
+          <button type="button" onclick="window.location.href = 'https://open.spotify.com/album/54o6xUDSaLXJIpwwOJYOaD'; fbq('trackCustom', 'SpotifyLanding');"
+            class="btn btn-outline-light btn-lg buy-btn">
+            <i class="fab fa-spotify"></i> Spotify</button>
         </div>
         <div id="cover_art" class="col-lg-6">
           <img id="cover" src="images/Away_cover.jpeg"  alt="Away cover art">
@@ -181,7 +177,7 @@
 
   <section id="demos">
      <div class="container-fluid">
-      <h3 id="demo-intro"> 'Away' Sample Tracks</h3>
+      <h3 id="demo-intro"> Larsxn Sample Tracks</h3>
       <img id="tracks" class="tracks-img" src="images/Away_cover.jpeg"  alt="Away cover icon"/>
         <div class="row demo-items">
           <div class="demo-box col-lg-4 col-md-4 col-sm-6">
@@ -222,54 +218,42 @@
 
   <section id="channels">
     <div class="container-fluid">
-      <h3 id="cta">Press an icon to stream and play music by Larsxn.</h3>
+      <h3 id="cta">You can listen to more music by Larsxn here.</h3>
       <div class="row">
-        <div class="logo-box col-lg-3 col-md-3 col-sm-4">
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
           <button class="btn btn-outline-none btn-lg m-logos">
-            <img class='m-logos'src="images/apple-music-logo.jpeg"
+            <img class='m-logos'src="images/Apple_Music_logo.jpeg"
               onclick="window.location.href = 'https://music.apple.com/us/album/away-ep/1514508259'; fbq('trackCustom', 'Apple1Lower')">
           </button>
         </div>
-        <div class="logo-box col-lg-3 col-md-3 col-sm-4">
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
           <button class="btn btn-outline-none btn-lg m-logos">
-            <img class='m-logos' src="images/spotify-logo.jpeg"
+            <img class='m-logos' src="images/spotify-logo.png"
               onclick = "window.location.href = 'https://open.spotify.com/album/54o6xUDSaLXJIpwwOJYOaD'; fbq('trackCustom', 'Spotify1Lower')">
           </button>
         </div>
-        <div class="logo-box col-lg-3 col-md-3 col-sm-4">
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
           <button class="btn btn-outline-none btn-lg m-logos">
             <img class='m-logos'src="images/2020_soundcloudlogo.png"
               onclick = "window.location.href = 'https://soundcloud.com/larsxn'; fbq('trackCustom', 'SoundCloud1Lower')">
           </button>
         </div>
-        <div class="logo-box col-lg-3 col-md-3 col-sm-4">
-          <button class="btn btn-outline-none btn-lg m-logos">
-            <img  src="images/deezer-logo.jpeg" class="m-logos"
-            onclick = "window.location.href = 'https://www.deezer.com/us/album/149690222'; fbq('trackCustom', 'Deezer1Lower')">
-         </button>
-        </div>
-        <div class="logo-box col-lg-3 col-md-3 col-sm-4">
-          <button class="btn btn-outline-none btn-lg m-logos">
-            <img class='m-logos'src="images/youtube-logo.jpeg"
-              onclick = "window.location.href = 'https://www.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'; fbq('trackCustom', 'YouTube1Lower')">
-          </button>
-        </div>
-        <div class="logo-box col-lg-3 col-md-3 col-sm-4">
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
           <button class="btn btn-outline-none btn-lg m-logos">
             <img  src="images/Google_Play_logo.png" class="m-logos"
             onclick = "window.location.href = 'https://play.google.com/store/music/album/Larsxn_Away?id=Byehstl5guajeqolk7y23i437ti&hl=en_US'; fbq('trackCustom', 'GooglePlay1Lower')">
          </button>
         </div>
-        <div class="logo-box col-lg-3 col-md-3 col-sm-4">
-          <button class="btn btn-outline-none btn-lg m-logos">
-            <img  src="images/napster-logo.png" class="m-logos"
-            onclick = "window.location.href = 'https://us.napster.com/artist/larsxn/album/away-481724764'; fbq('trackCustom', 'Napster1Lower')">
-         </button>
-        </div>
-        <div class="logo-box col-lg-3 col-md-3 col-sm-4">
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
           <button class="btn btn-outline-none btn-lg m-logos">
             <img class='m-logos'src="images/amazon-music-logo.jpeg"
               onclick = "window.location.href = 'https://www.amazon.com/Away-Explicit-Larsxn/dp/B088YSBMT7/ref=sr_1_1?dchild=1&keywords=larsxn&qid=1590418894&s=dmusic&sr=1-1'; fbq('trackCustom', 'Amazon1Lower')">
+          </button>
+        </div>
+        <div class="logo-box col-lg-2 col-md-3 col-sm-4">
+          <button class="btn btn-outline-none btn-lg m-logos">
+            <img class='m-logos'src="images/YouTube_logo.png"
+              onclick = "window.location.href = 'https://www.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'; fbq('trackCustom', 'YouTube1Lower')">
           </button>
         </div>
       </div>
