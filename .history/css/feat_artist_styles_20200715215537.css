@@ -61,6 +61,7 @@ h2 {
 @media (max-width: 1200px) {
     #title {
         text-align: center;
+        /* padding-bottom: 14rem; */
     }
     .pic-box {
         text-align: center;
