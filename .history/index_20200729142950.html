@@ -93,14 +93,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Artists
-              </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="pages/Lie_Artists.html">'LIE.' - Single</a>
-              <a class="dropdown-item" href="pages/Away_Artists.html">'Away' - EP</a>
-            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/Lie_Artists.html" onclick="fbq('trackCustom', 'Artists')">Artists</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#channels" onclick="fbq('trackCustom', 'Channels')">Stream</a>
@@ -186,15 +180,14 @@
   <!-- Demos -->
 
   <section id="demos">
-    <h3 class="demo-header ">Sample Music by Larsxn</h3>
-    <div id="demo-carousel" class="carousel slide" data-interval=10000 data-ride="carousel" data-pause="hover"  >
-      <ol class="carousel-indicators">
-        <li data-target="#demo-carousel" data-slide-to="0" ></li>
-        <li data-target="#demo-carousel" data-slide-to="1"></li>
+    <div id="demo-carousel" class="carousel slide" data-ride="false" pause="hover" wrap="true" interval=20000>
+      <ol>class="carousel-indicators">
+        <li>data-target="#demo-carousel" data-slide-to="0"</li>
+        <li>data-target="#demo-carousel" data-slide-to="1"</li>
       </ol>
-      <div class="carousel-inner container-fluid">
-        <div class="carousel-item active ">
-          <h3 class="demo-intro"> 'LIE.' - New Single</h3>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h3 class="demo-intro"> 'LIE.' Sample Track</h3>
           <img class="tracks-img" src="images/Lie_cover.jpeg"  alt="Lie. cover icon"/>
             <div class="row demo-items">
               <div class="demo-box col-lg-12 ">
@@ -210,8 +203,8 @@
             <br>
             <a class="artist-link" href="pages/Lie_Artists.html" onclick="fbq('trackCustom', 'Artists')">Artists</a> <br><br>
         </div>
-        <div class="carousel-item">
-          <h3 class="demo-intro"> 'Away' EP - May, 2020</h3>
+        <div class="carousel-item container-fluid">
+          <h3 class="demo-intro"> 'Away' Sample Tracks</h3>
           <img class="tracks-img" src="images/Away_cover.jpeg"  alt="Away cover icon"/>
             <div class="row demo-items">
               <div class="demo-box col-lg-4 col-md-4 col-sm-6">

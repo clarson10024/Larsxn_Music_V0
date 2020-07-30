@@ -93,14 +93,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Artists
-              </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="pages/Lie_Artists.html">'LIE.' - Single</a>
-              <a class="dropdown-item" href="pages/Away_Artists.html">'Away' - EP</a>
-            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/Away_Artists.html" onclick="fbq('trackCustom', 'Artists')">Artists</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#channels" onclick="fbq('trackCustom', 'Channels')">Stream</a>
@@ -119,7 +113,7 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="big-heading">New Single:  'LIE.'</h1>
+          <h1 class="big-heading">New Music:  'Away'</h1>
           <!--Bootstrap button classes with Fontawesome icons-->
           <!-- event, category, action, label, value -->
           <button type="button" onclick="window.location.href = '#channels'; fbq('trackCustom', 'ChannelsLanding');"
@@ -132,7 +126,7 @@
             <!-- <i class="fab fa-spotify"></i> Spotify</button> -->
         </div>
         <div id="cover_art" class="col-lg-6">
-          <img id="cover" src="images/Lie_cover_closer.jpeg"  alt="Lie. cover art">
+          <img id="cover" src="images/Away_cover.jpeg"  alt="Away cover art">
         </div>
       </div>
     </div>
@@ -186,74 +180,42 @@
   <!-- Demos -->
 
   <section id="demos">
-    <h3 class="demo-header ">Sample Music by Larsxn</h3>
-    <div id="demo-carousel" class="carousel slide" data-interval=10000 data-ride="carousel" data-pause="hover"  >
-      <ol class="carousel-indicators">
-        <li data-target="#demo-carousel" data-slide-to="0" ></li>
-        <li data-target="#demo-carousel" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner container-fluid">
-        <div class="carousel-item active ">
-          <h3 class="demo-intro"> 'LIE.' - New Single</h3>
-          <img class="tracks-img" src="images/Lie_cover.jpeg"  alt="Lie. cover icon"/>
-            <div class="row demo-items">
-              <div class="demo-box col-lg-12 ">
-                <button id="Lie" type="button"
-                  onclick="playAudio('Lie', 'audio/Lie.m4a')"
-                  class="btn btn-secondary btn-lg play-btn">
-                  <i class="fas fa-play-circle"></i>
-                </button>
-                <h3 class="track-title">'LIE.'</h3>
-                <p>(feat. Chris Shoda)</p>
-              </div>
-            </div>
-            <br>
-            <a class="artist-link" href="pages/Lie_Artists.html" onclick="fbq('trackCustom', 'Artists')">Artists</a> <br><br>
-        </div>
-        <div class="carousel-item">
-          <h3 class="demo-intro"> 'Away' EP - May, 2020</h3>
-          <img class="tracks-img" src="images/Away_cover.jpeg"  alt="Away cover icon"/>
-            <div class="row demo-items">
-              <div class="demo-box col-lg-4 col-md-4 col-sm-6">
-                <button id="Never_Stop_Me" type="button"
-                onclick="playAudio('Never_Stop_Me', 'audio/Never_Stop_Me.mp3')"
-                class="btn btn-secondary btn-lg play-btn">
-                <i class="fas fa-play-circle"></i>
-                </button>
-                <h3 class="track-title">'Never Stop Me'</h3>
-                <p>(feat. Oly Amo & Ktm Chano)</p>
-              </div>
-              <div class="demo-box col-lg-4 col-md-4 col-sm-6">
-                <button id="Ungrateful" type="button"
-                  onclick="playAudio('Ungrateful', 'audio/Ungrateful.m4a')"
-                  class="btn btn-secondary btn-lg play-btn">
-                  <i class="fas fa-play-circle"></i>
-                </button>
-                <h3 class="track-title">'Ungrateful'</h3>
-               <p></p>
-              </div>
-              <div class="demo-box col-lg-4 col-md-4 col-sm-6">
-                <button id="Changes" type="button"
-                  onclick="playAudio('Changes', 'audio/Changes.m4a')"
-                  class="btn btn-secondary btn-lg play-btn">
-                  <i class="fas fa-play-circle"></i>
-                </button>
-               <h3 class="track-title">'Changes'</h3>
-                <p>(feat. Chris Shoda)</p>
-              </div>
-            </div>
-            <br>
-            <a class="artist-link" href="pages/Away_Artists.html" onclick="fbq('trackCustom', 'Artists')">Artists</a> <br><br>
+     <div class="container-fluid">
+      <h3 id="demo-intro"> 'Away' Sample Tracks</h3>
+      <img id="tracks" class="tracks-img" src="images/Away_cover.jpeg"  alt="Away cover icon"/>
+        <div class="row demo-items">
+          <div class="demo-box col-lg-4 col-md-4 col-sm-6">
+            <button id="Never_Stop_Me" type="button"
+            onclick="playAudio('Never_Stop_Me', 'audio/Never_Stop_Me.mp3')"
+            class="btn btn-secondary btn-lg play-btn">
+            <i class="fas fa-play-circle"></i>
+          </button>
+            <h3 class="track-title">'Never Stop Me'</h3>
+            <p>(feat. Oly Amo & Ktm Chano)</p>
+          </div>
+          <div class="demo-box col-lg-4 col-md-4 col-sm-6">
+            <button id="Ungrateful" type="button"
+              onclick="playAudio('Ungrateful', 'audio/Ungrateful.m4a')"
+              class="btn btn-secondary btn-lg play-btn">
+              <i class="fas fa-play-circle"></i>
+            </button>
+            <h3 class="track-title">'Ungrateful'</h3>
+            <p></p>
+          </div>
+          <div class="demo-box col-lg-4 col-md-4 col-sm-6">
+            <button id="Changes" type="button"
+              onclick="playAudio('Changes', 'audio/Changes.m4a')"
+              class="btn btn-secondary btn-lg play-btn">
+              <i class="fas fa-play-circle"></i>
+            </button>
+            <h3 class="track-title">'Changes'</h3>
+            <p>(feat. Chris Shoda)</p>
           </div>
         </div>
+        <br>
+        <a class="artist-link" href="pages/Away_Artists.html" onclick="fbq('trackCustom', 'Artists')">Artists</a> <br><br>
+       </div>
       </div>
-      <a class="carousel-control-prev" href="#demo-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
   </section>
 
   <!-- Distribution Channel listing with links -->

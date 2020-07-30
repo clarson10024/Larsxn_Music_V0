@@ -46,11 +46,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav .dropdown .dropdown-menu a{
     background-color: black;
-    color: #c9d6df;
-    border: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-
+    color: white;
+    border-top: 0px;
+    border-bottom: 0px;
 }
 
 
