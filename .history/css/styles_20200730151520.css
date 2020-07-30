@@ -55,6 +55,10 @@ h1, h2, h3, h4, h5, h6 {
  .dropdown-menu .dropdown-item {
     background-color: black;
     color: white;
+    /* border-top: none;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; */
 }
 .dropdown-item:hover {
     font-size: 110%;

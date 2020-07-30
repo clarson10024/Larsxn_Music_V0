@@ -49,15 +49,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-expand {
-    background-color: gray;
+    background-color: black;
 }
 
  .dropdown-menu .dropdown-item {
     background-color: black;
-    color: white;
+    color: gray;
+    border-top: none;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 .dropdown-item:hover {
-    font-size: 110%;
+    color: white;
 }
 
 .big-heading {
@@ -342,6 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
     .dropdown-menu a{
+        color: white;
         text-align: center;
     }
 }
@@ -351,6 +356,24 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 780px) {
     .navbar {
         padding: 0 0 2.5rem;
+        border: none;
+        border-color: black;
+    }
+    .navbar-expand {
+        background-color: white;
+        border: black;
+        color: white;
+    }
+    /* .navitem {
+        border: none;
+        border-color: black;
+    } */
+    .dropdown-menu {
+        border-color: black
+    }
+    .dropdown-menu a{
+        text-align: center;
+        color: white;
     }
     #title {
         padding-top: 1rem;

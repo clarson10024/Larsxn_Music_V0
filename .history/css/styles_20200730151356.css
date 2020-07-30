@@ -55,6 +55,10 @@ h1, h2, h3, h4, h5, h6 {
  .dropdown-menu .dropdown-item {
     background-color: black;
     color: white;
+    /* border-top: none;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; */
 }
 .dropdown-item:hover {
     font-size: 110%;
@@ -351,7 +355,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 780px) {
     .navbar {
         padding: 0 0 2.5rem;
+        border: none;
+        border-color: black;
     }
+    /* .dropdown-menu a{
+        text-align: center;
+        color: white;
+    } */
     #title {
         padding-top: 1rem;
         text-align: center;
