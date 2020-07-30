@@ -374,8 +374,8 @@ h1, h2, h3, h4, h5, h6 {
     }
     .demo-header {
         padding-top: 1.0rem;
-        font-size: 1.90rem;
-        font-weight: 600;
+        font-size: 1.80rem;
+        font-style: bold;
     }
     .demo-intro {
         font-size: 1.75rem;
