@@ -348,16 +348,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 780px) {
     .navbar {
         padding: 0 0 2.5rem;
-        border: none;
-    }
-    .navitem {
-        border: none;
-        border-color: black;
     }
     .dropdown-menu a{
-        padding-top: none;
         text-align: center;
-        border: none;
     }
     #title {
         padding-top: 1rem;

@@ -46,15 +46,13 @@ h1, h2, h3, h4, h5, h6 {
 
  .dropdown-menu .dropdown-item {
     background-color: black;
+    font-style: light;
     color: gray;
     border-top: none;
     border-bottom: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    /* text-align: center; */
-}
-.dropdown-item:hover {
-    color: white;
+    text-align: center;
 }
 
 .big-heading {
@@ -335,29 +333,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* This is to address automatic bootstrap sizing changes to dropdown menu */
-
-@media (max-width: 992px) {
-    .dropdown-menu a{
-        text-align: center;
-    }
-}
-
   /* Mobile Styling */
 
 @media (max-width: 780px) {
     .navbar {
         padding: 0 0 2.5rem;
-        border: none;
-    }
-    .navitem {
-        border: none;
-        border-color: black;
     }
     .dropdown-menu a{
-        padding-top: none;
         text-align: center;
-        border: none;
     }
     #title {
         padding-top: 1rem;
